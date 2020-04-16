@@ -1,153 +1,33 @@
 
-{
-  "product": [
-    { "id":1,
-      "imageurl":"../assets/mo1.jpg",
-      "categoryName": "menoutwear",
-      "itemname":"Men's Tech Shell Full-Zip",
-      "price":"1200",
-      "detail":[{
-        "size":"s",
-        "quantity":4
-      },{
-        "size":"m",
-        "quantity":1
-      },{
-        "size":"l",
-        "quantity":3
-      },{
-        "size":"xl",
-        "quantity":3
-      }
-    ]
-    },
-    { "id":2,
-      "imageurl":"../../../../assets/mo3.jpg",
-      "categoryName": "menoutwear",
-      "itemname":"Anvil L/S Crew Neck - Grey",
-      "price":"1450",
-      "detail":[{
-        "size":"s",
-        "quantity":4
-      },{
-        "size":"m",
-        "quantity":1
-      },{
-        "size":"l",
-        "quantity":3
-      }
-    ]
-    },
-    { "id":3,
-      "imageurl":"../../../../assets/mo2.jpg",
-      "categoryName": "menoutwear",
-      "itemname":"Green Flex Fleece Zip Hoodie",
-      "price":"1790",
-      "detail":[{
-        "size":"s",
-        "quantity":4
-      },{
-        "size":"m",
-        "quantity":1
-      },{
-        "size":"l",
-        "quantity":3
-      },{
-        "size":"xl",
-        "quantity":3
-      }
-    ]
-    },
-    { "id":4,
-      "imageurl":"../../../../assets/lo1.jpg",
-      "categoryName": "ladiesoutwear",
-      "itemname":"Ladies Modern Stretch Full Zip",
-      "price":"2790",
-      "detail":[{
-        "size":"s",
-        "quantity":4
-      },{
-        "size":"m",
-        "quantity":1
-      },{
-        "size":"l",
-        "quantity":3
-      },{
-        "size":"xl",
-        "quantity":3
-      }
-    ]
-    },
-    { "id":4,
-      "imageurl":"../../../../assets/lo2.jpg",
-      "categoryName": "ladiesoutwear",
-      "itemname":"Ladies Colorblock Wind Jacket",
-      "price":"2340",
-      "detail":[{
-        "size":"s",
-        "quantity":4
-      },{
-        "size":"m",
-        "quantity":1
-      },{
-        "size":"l",
-        "quantity":3
-      },{
-        "size":"xl",
-        "quantity":3
-      }
-    ]
-    },
-    { "id":4,
-      "imageurl":"../../../../assets/lo3.jpg",
-      "categoryName": "ladiesoutwear",
-      "itemname":"Ladies Voyage Fleece Jacket",
-      "price":"1090",
-      "detail":[{
-        "size":"s",
-        "quantity":4
-      },{
-        "size":"m",
-        "quantity":1
-      },{
-        "size":"l",
-        "quantity":3
-      },{
-        "size":"xl",
-        "quantity":3
-      }
-    ]
-    },
-    { "id":4,
-      "imageurl":"../../../../assets/lo4.jpg",
-      "categoryName": "ladiesoutwear",
-      "itemname":"Ladies Sonoma Hybrid Knit Jacket",
-      "price":"3390",
-      "detail":[{
-        "size":"s",
-        "quantity":4
-      },{
-        "size":"m",
-        "quantity":1
-      },{
-        "size":"l",
-        "quantity":3
-      },{
-        "size":"xl",
-        "quantity":3
-      }
-    ]
-    }
-  ],
-  "cart": [
-    { "id":1,
-      "imageurl":"../assets/mo1.jpg",
-      "categoryName": "menoutwear",
-      "itemname":"Men's Tech Shell Full-Zip",
-      "price":1200,
-      "size":"s",
-      "quantity":4
-
-    }
-    ]
+   {
+    "mockLogin" : {
+        "userName":"Tanmoy",
+        "userId":369,
+        "statusCode":607,
+        "message":"SUCCESS",
+        "role":"NB User"
+      },
+      "cases": [
+        {
+          "caseId":"123456",
+          "customerName":"jhon xyz",
+          "status":"FATCA Review",
+          "sla":"xyz",
+          "assign":"jenfier"
+         },
+          {
+            "caseId":"123789",
+            "customerName":"maxwell",
+            "status":"AML Review",
+            "sla":"xyz",
+            "assign":"olivia"
+           },
+            {
+              "caseId":"123456",
+              "customerName":"martin",
+              "status":"Auto CLosed",
+              "sla":"xyz",
+              "assign":"Sergio"
+            }
+      ]
     }
