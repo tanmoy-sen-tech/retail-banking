@@ -1,33 +1,107 @@
-
-   {
-    "mockLogin" : {
-        "userName":"Tanmoy",
-        "userId":369,
-        "statusCode":607,
-        "message":"SUCCESS",
-        "role":"NB User"
-      },
-      "cases": [
-        {
-          "caseId":"123456",
-          "customerName":"jhon xyz",
-          "status":"FATCA Review",
-          "sla":"xyz",
-          "assign":"jenfier"
-         },
-          {
-            "caseId":"123789",
-            "customerName":"maxwell",
-            "status":"AML Review",
-            "sla":"xyz",
-            "assign":"olivia"
-           },
-            {
-              "caseId":"123456",
-              "customerName":"martin",
-              "status":"Auto CLosed",
-              "sla":"xyz",
-              "assign":"Sergio"
-            }
-      ]
+{
+  "mockLogin": {
+    "userName": "Tanmoy",
+    "userId": 369,
+    "statusCode": 607,
+    "message": "SUCCESS",
+    "role": "NB User"
+  },
+  "cases": [
+    {
+      "caseId": "PR-123456",
+      "customerName": "Jhon Sinclair",
+      "caseType":"NB",
+      "priority":"Medium",
+      "status": "FATCA Review",
+      "dueDate": "2/5/2020",
+      "assign": "Mohan"
+    },
+    {
+      "caseId": "PR-123789",
+      "customerName": "Maxwell",
+      "caseType":"NB",
+      "priority":"Low",
+      "status": "AML Review",
+      "dueDate": "2/5/2020",
+      "assign": "Jack"
+    },
+    {
+      "caseId": "PR-123100",
+      "customerName": "Emma Vivin",
+      "caseType":"NB",
+      "priority":"High",
+      "status": "AML Review",
+      "dueDate": "2/5/2020",
+      "assign": "Eloise"
     }
+  ],
+  "customerList": [
+    {
+      "customerName": "Jhon Sinclair",
+      "date": "12/06/2020",
+      "gender": "Male",
+      "mobile": 9871452362,
+      "emailAddress": "abc@gmail.com",
+      "nationality": "Indian",
+      "address": "33,M.c garden,kolkata",
+      "city": "Kolkata",
+      "zipCode": 781236,
+      "country": "India"
+    },
+    {
+      "customerName": "Maxwell",
+      "date": "04/10/2020",
+      "gender":"Male",
+      "mobile": 9844444400,
+      "emailAddress": "a@gmail.com",
+      "nationality": "Indian",
+      "address": "22/2,M.g road",
+      "city": "Mumbai",
+      "zipCode": 478514,
+      "country": "India"
+    },
+    {
+      "customerName": "Emma Vivin",
+      "date": "21/05/2020",
+      "gender": "Female",
+      "mobile": 9871414582,
+      "emailAddress": "iz@gmail.com",
+      "nationality": "Indian",
+      "address": "79/9 Apc road",
+      "city": "Chennai",
+      "zipCode": 482314,
+      "country": "India"
+    }
+  ],
+  "entityList":[
+    {
+    "type":"AML Review",
+    "name":"Jack"
+    },
+    {
+    "type":"FATCA Review",
+    "name":"Mohan"
+    },
+    {
+    "type":"AML Review",
+    "name":"Anna"
+    },
+    {
+    "type":"AML Review",
+    "name":"Julie"
+    },
+    {
+    "type":"FATCA Review",
+    "name":"Sam"
+    },
+    {
+    "type":"FATCA Review",
+    "name":"Matt"
+    },
+    {
+      "type":"AML Review",
+      "name":"Eloise"
+      }
+    ]
+    
+}
