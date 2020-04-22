@@ -14,7 +14,11 @@
       "priority":"Medium",
       "status": "FATCA Review",
       "dueDate": "2/5/2020",
-      "assign": "Mohan"
+      "assign": "Mohan",
+      "taxQn":"CT78459103",
+      "usTin":359612784,
+      "formType":"15G",
+      "signDate":"10/4/2020"
     },
     {
       "caseId": "PR-123789",
@@ -40,37 +44,37 @@
       "customerName": "Jhon Sinclair",
       "date": "12/06/2020",
       "gender": "Male",
-      "mobile": 9871452362,
+      "mobile": 4155557894,
       "emailAddress": "abc@gmail.com",
-      "nationality": "Indian",
-      "address": "33,M.c garden,kolkata",
-      "city": "Kolkata",
-      "zipCode": 781236,
-      "country": "India"
+      "nationality": "US",
+      "address": "33 priston street",
+      "city": "Newyork",
+      "zipCode": 482314,
+      "country": "US"
     },
     {
       "customerName": "Maxwell",
       "date": "04/10/2020",
       "gender":"Male",
-      "mobile": 9844444400,
+      "mobile": 65453767802,
       "emailAddress": "a@gmail.com",
-      "nationality": "Indian",
-      "address": "22/2,M.g road",
-      "city": "Mumbai",
-      "zipCode": 478514,
-      "country": "India"
+      "nationality": "Singapore",
+      "address": "22/2, Upper thomson road",
+      "city": "Shenton",
+      "zipCode": 568811,
+      "country": "Malaysia"
     },
     {
       "customerName": "Emma Vivin",
       "date": "21/05/2020",
       "gender": "Female",
-      "mobile": 9871414582,
+      "mobile": 65453767666,
       "emailAddress": "iz@gmail.com",
-      "nationality": "Indian",
-      "address": "79/9 Apc road",
-      "city": "Chennai",
-      "zipCode": 482314,
-      "country": "India"
+      "nationality": "Singapore",
+      "address": "79/9 Woodlands Avenue",
+      "city": "Shenton",
+      "zipCode": 568811,
+      "country": "Malaysia"
     }
   ],
   "entityList":[
